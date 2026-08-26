@@ -1,12 +1,20 @@
 * {
   box-sizing: border-box;
-
-header {
+}
+header { 
 background-color: rgba(255, 184, 220, 0.87)5, 105, 180, 0.685;
 }
 
-
+#logos{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
 }
+#tope img {
+  width: 100px;
+}
+
 
 body {
   margin: 0;

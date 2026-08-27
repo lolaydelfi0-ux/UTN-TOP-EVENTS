@@ -27,7 +27,53 @@
       <a href="/encuesta.html" aria-current="page">Reserva acá</a>
     </nav>
     <main>
-      <h1>Other page</h1>
+     
+        <h2>Reserva tu fecha</h2>
+        <p>Ingrese sus datos para realizar la reserva del salon </p>
+        <section>
+          <div id="formulario">
+            <h2>Tus datos</h2>
+            <form action="#">
+              <label for="formnombre">Nombre</label>
+              <input type="text" name="formnombre" maxlength="30" minlength="5" required placeholder="Ingrese su nombre" >
+              
+              <label for="fromapellido">Apellido</label>
+              <input type="texto" name="fromapellido" id="fromapellido" maxlength="30" minlength="5" required placeholder="Ingrese su apellido">
+  
+              <input id="fromedad" required type="number" placeholder="Ingrese su edad">
+  
+              <input id="fromclave" required type="password" placeholder="Ingrese su contraseña">
+  
+              <input type="email" placeholder="correopp@dom.com">
+  
+              <input type="radio" id="fromf" name="fromsexo" value="Femenino">
+              <label for="fem">Femenino</label>
+              <input type="radio" id="fromm" name="fromsexo" value="Masculino">
+              <label for="masc">Masculino</label>
+              <input type="radio" id="fromn" name="fromsexo" value="nodecirlo">
+              <label for="noinf">Prefiero no decirlo</label><br> <br>
+              
+              <label for="ubicacion">Seleccione la ubicación</label> <br>
+              <select name="ubicacion" id="frombi">
+                <option value="plateaa">Avellaneda</option>
+                <option value="plateam">Pilar</option>
+                <option value="plateab">La Plata</option>
+                <option value="popular">Caba</option>
+                <option value="palco">Quilmes</option>
+              </select>
+              <input id="fromedad" required type="number" placeholder="Ingrese el día">
+              <input id="fromedad" required type="number" placeholder="Ingrese el mes">
+              <input id="fromedad" required type="number" placeholder="Ingrese el año">
+              <textarea name="areatexto" id="fromtext" cols="30" rows="5"></textarea>
+            
+              <input type="submit">
+  
+  
+    
+            </form>
+          </div>
+        </section>
+      
     </main>
   </body>
 </html>

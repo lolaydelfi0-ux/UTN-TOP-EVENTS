@@ -113,13 +113,20 @@ section{
   justify-content: center;
 }
 
-.multimedia{
-  width: 700px;
-  background-color: rgb(247, 183, 183);
+.multimedia {
+  width: 50%;
+  margin: 30px auto;
+  padding: 8px;
+  background: #fffdf8;
+  border: 1px solid #c9a96e;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.10);
 }
 
-.multimedia video{
-  width: 700px;
+.multimedia video {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
 }
 body {
   background: #faf8f3;

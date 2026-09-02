@@ -179,5 +179,34 @@ form button {
     cursor: pointer;
 }
 
+#presentacion {
+  width: 220px;
+  height: 100px;
+  margin-right: 25px;
+  overflow: hidden;
+  position: center;
+  flex-shrink: 0;
+  border: 2px solid #6fa6c1;
+  text-align: center;
+  border: 1px solid #c9a96e;
+  border-radius: 15px;
+  
+}
 
+.presentation {
+  background: transparent;
+  padding: 0;
+  margin: 0 auto;
+  width: fit-content;
+  height: 299px;
+  padding: 8px;
+  border: 2px solid #d4af37;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.presentation iframe {
+  display: block;
+  border-radius: 12px;
+}
 

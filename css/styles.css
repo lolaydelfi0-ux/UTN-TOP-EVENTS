@@ -210,3 +210,16 @@ form button {
   border-radius: 12px;
 }
 
+.boton {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 13px 25px;
+  background-color: #d9a5a0;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.boton:hover {
+  background-color: #c98f89;
+}

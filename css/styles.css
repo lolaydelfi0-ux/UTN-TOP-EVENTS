@@ -59,6 +59,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  width:1500px ;
+  height: 150px;
 }
 #colegio {
   width: 33%;

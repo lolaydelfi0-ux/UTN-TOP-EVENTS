@@ -52,6 +52,9 @@ nav a[aria-current='page'] {
   background-color: #E8DED0;
 }
 
+.activo {
+  box-shadow: 5px 5px lightgray;
+}
 
 footer {
   background-color: #000;
@@ -305,4 +308,7 @@ form button {
   text-align: center;
   border: 1px solid #c9a96e;
   border-radius: 15px;
+ }
+ .cupon img{
+  width: 100%;
  }
